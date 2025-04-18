@@ -158,7 +158,7 @@ Add this to the `setup()` function after `makeCanvas();` :
  
     // randomSeed(99); // uncomment this line if you like random() to have the same outcome everytime you run the sketch
     for (i = 0; i < sequences[0].length; i++) {
-        if (sequences[0][i] > 0) {
+        if (sequences[2][i] > 0) {
             sequences[2][i] = 0.5 + Math.random();
         }
     }
